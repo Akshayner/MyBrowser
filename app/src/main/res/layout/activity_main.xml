@@ -3,7 +3,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#474e40">
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="0dp"
@@ -14,11 +15,14 @@
         android:layout_weight="0.8"
         android:layout_height="match_parent"
         android:id="@+id/et1"
-        android:hint="Enter URL"/>
+        android:hint="Enter URL"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:background="@drawable/border"/>
     <Button
         android:layout_width="0dp"
         android:layout_weight="0.2"
-        android:layout_height="match_parent"
+        android:layout_height="25dp"
         android:id="@+id/se"
         android:background="@drawable/ic_search_black_24dp"
         android:onClick="load"/>
@@ -45,7 +49,7 @@
             android:layout_width="0dp"
             android:layout_weight="0.2"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
+            android:layout_margin="10dp"
             android:background="@drawable/youtube"
             android:id="@+id/yt"
             android:onClick="load"/>
@@ -53,7 +57,7 @@
             android:layout_width="0dp"
             android:layout_weight="0.2"
             android:layout_height="wrap_content"
-           android:layout_margin="8dp"
+           android:layout_margin="10dp"
             android:background="@drawable/twitter"
             android:id="@+id/tw"
             android:onClick="load"/>
@@ -62,7 +66,7 @@
             android:layout_width="0dp"
             android:layout_weight="0.2"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
+            android:layout_margin="10dp"
             android:background="@drawable/google"
             android:id="@+id/gg"
             android:onClick="load"/>
@@ -71,7 +75,7 @@
             android:layout_width="0dp"
             android:layout_weight="0.2"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
+            android:layout_margin="10dp"
             android:background="@drawable/html"
             android:id="@+id/ht"
             android:onClick="load"/>
